@@ -10,7 +10,7 @@ This folder is files for usb2zigbee( EFR32MG13)
 | *** | *** |
 | TX  | PA0 |
 | RX  | PA1 |
-| RTS | |
+| RTS | PA2 |
 | CTS | PF4 |
 | FlowControl| NO|
 
