@@ -4,7 +4,8 @@ EmberZNet (EZSP) Zigbee 3.0 / Zigbee Coordinator (NCP) firmmware for Silicon Lab
 
 ## efr32mg13p732usb2zigbee
 
-This folder is files for usb2zigbee( EFR32MG13)
+This folder is files for usb2zigbee( EFR32MG13) 
+![picture of diy usb dongle](efr32mg13p732usb2zigbee/3d_pcb.png)
 
 | Configuration Parameter  | Value |
 |---------------|-----------|
