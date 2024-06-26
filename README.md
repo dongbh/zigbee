@@ -16,9 +16,9 @@ This folder is files for usb2zigbee( EFR32MG13)
 | FlowControl| NO||
 | Bootloader | bootloader-uart-xmodem.s37 ||
 | Firmware(6.10) | ELE_MG13_zb_ncp_115200_610_211112.gbl |None|
-| Firmware(7.3.2) | ncp-uart-hw-115200.7.3.2.gbl | Hardware|
-| Firmware(7.3.2) | ncp-uart-noflowcontrol-115200.7.3.2.gbl | None|
-| Firmware(7.4.1) | ncp-uart-hw-115200.7.4.1.gbl | Hareware|
-| Firmware(7.4.1) | ncp-uart-noflowcontrol-115200.7.4.1.gbl | None|
-| Firmware(7.4.3) | ncp-uart-hw-115200.7.4.3.gbl | Hareware|
-| Firmware(7.4.3) | ncp-uart-noflowcontrol-115200.7.4.3.gbl | None|
+| Firmware(7.3.2) | ncp-uart-hw-115200-7.3.2.gbl | Hardware|
+| Firmware(7.3.2) | ncp-uart-noflowcontrol-115200-7.3.2.gbl | None|
+| Firmware(7.4.1) | ncp-uart-hw-115200-7.4.1.gbl | Hareware|
+| Firmware(7.4.1) | ncp-uart-noflowcontrol-115200-7.4.1.gbl | None|
+| Firmware(7.4.3) | ncp-uart-hw-115200-7.4.3.gbl | Hareware|
+| Firmware(7.4.3) | ncp-uart-noflowcontrol-115200-7.4.3.gbl | None|
