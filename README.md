@@ -2,23 +2,35 @@
 
 EmberZNet (EZSP) Zigbee 3.0 / Zigbee Coordinator (NCP) firmmware for Silicon Labs EFR32MG13 and EFR32MG21 DIY USB dongle.
 
-## efr32mg13p732usb2zigbee
+## Name information:
 
-This folder is files for usb2zigbee( EFR32MG13) 
-![picture of diy usb dongle](efr32mg13p732usb2zigbee/3d_pcb.png)
+ncp-uart-MODULE-FLOWCONTROL-BAUD.gbl
+ncp-uart: means this is a ncp firmware.
+MODULE: mg13/mg210l
+       mg13: efr32mg13p732
+       mg210l: mgm210l022JNF
+FLOWCONTROL: hw/xonoff/noflowcontrol
+       usb2zigbee device can use hw or noflowcontrol
+       ethernet2zigbee device must use noflowcontrol
 
-| Configuration Parameter  | Value |Flow Control|
-|---------------|-----------|-----------|
-| TX  | PA0 ||
-| RX  | PA1 ||
-| RTS | PF4 ||
-| CTS | PA2 ||
-| FlowControl| NO||
-| Bootloader | bootloader-uart-xmodem.s37 ||
-| Firmware(6.10) | ELE_MG13_zb_ncp_115200_610_211112.gbl |None|
-| Firmware(7.3.2) | ncp-uart-hw-115200-7.3.2.gbl | Hardware|
-| Firmware(7.3.2) | ncp-uart-noflowcontrol-115200-7.3.2.gbl | None|
-| Firmware(7.4.1) | ncp-uart-hw-115200-7.4.1.gbl | Hareware|
-| Firmware(7.4.1) | ncp-uart-noflowcontrol-115200-7.4.1.gbl | None|
-| Firmware(7.4.3) | ncp-uart-hw-115200-7.4.3.gbl | Hareware|
-| Firmware(7.4.3) | ncp-uart-noflowcontrol-115200-7.4.3.gbl | None|
+## mg13(efr32mg13p732) module
+| Configuration Parameter  | Value |
+|---------------|-----------|
+| TX  | PA0 |
+| RX  | PA1 |
+| RTS | PF4 |
+| CTS | PA2 |
+| LED | PC7 |
+| SW1 | PF3 |
+
+## mgm210l module
+| Configuration Parameter  | Value |
+|---------------|-----------|
+| TX  | PC01 |
+| RX  | PC00 |
+| RTS | PC03 |
+| CTS | PC02 |
+| LED | PC04 |
+| SW1 | PD01 |
+
+
