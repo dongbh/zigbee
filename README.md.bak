@@ -4,14 +4,14 @@ EmberZNet (EZSP) Zigbee 3.0 / Zigbee Coordinator (NCP) firmmware for Silicon Lab
 
 ## Name information:
 
-ncp-uart-MODULE-FLOWCONTROL-BAUD.gbl  
-ncp-uart: means this is a ncp firmware.  
-MODULE: mg13/mg210l  
-       mg13: efr32mg13p732  
-       mg210l: mgm210l022JNF  
-FLOWCONTROL: hw/xonoff/noflowcontrol  
-       usb2zigbee device can use hw or noflowcontrol  
-       ethernet2zigbee device must use noflowcontrol  
+ncp-uart-MODULE-FLOWCONTROL-BAUD.gbl
+ncp-uart: means this is a ncp firmware.
+MODULE: mg13/mg210l
+       mg13: efr32mg13p732
+       mg210l: mgm210l022JNF
+FLOWCONTROL: hw/xonoff/noflowcontrol
+       usb2zigbee device can use hw or noflowcontrol
+       ethernet2zigbee device must use noflowcontrol
 
 ## mg13(efr32mg13p732) module
 | Configuration Parameter  | Value |
